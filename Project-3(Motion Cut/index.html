@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Dealership Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container1">
+      <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Inventory</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>      
+      </div>
+      <button class="openbtn" onclick="openNav()">&#9776;</button>
+      <span>
+        <img src="images/companylogo.png" class="logoname">
+      </span>
+    </div>
+  </header>
+  <hr id="hr1">
+  <main>
+    <div class="container">
+      <div class="hero-content">
+        <a href="#" class="model-link" data-target="Cayman">Coupe</a>
+        <a href="#" class="model-link" data-target="911 GT3">911 GT3</a>
+        <a href="#" class="model-link" data-target="Coupe">Cayman</a>
+      </div>
+    </div>
+    <div class="hero-image-container">
+      <img src="images/porsche-model-2.png" alt="Cayman" class="hero-image active" data-model="Cayman">
+      <img src="images/porsche-model-1.png" alt="911 GT3" class="hero-image" data-model="911 GT3">
+      <img src="images/porsche-model.png" alt="Coupe" class="hero-image" data-model="Coupe">
+    </div>
+  </main>
+  <br>
+  <br>
+  <div id="card-header">
+    Select and configure 718 models.
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span>718 Cayman<br>$68,300*</span>
+      <button class="add-to-cart">Add to Cart</button>
+      <span class="mini-image">
+        <img src="images/porsche-model-mini.png"width="126px" height="95"></span>
+    </div>
+    <span class="temp">300 - Max-hp</span>
+    <span class="temp">4.9s - 0-60mph</span>
+    <span class="temp">170mph Top track speed</span>
+    <div class="temp-scale">
+      <span>Buy</span>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span>718 Boxter<br>$70,400*</span>
+      <button class="add-to-cart">Add to Cart</button>
+      <span class="mini-image">
+        <img src="images/porsche-model-mini-1.png"width="126px" height="95"></span>
+    </div>
+    <span class="temp">300 - Max-hp</span>
+    <span class="temp">4.9s - 0-60mph</span>
+    <span class="temp">170mph Top track speed</span>
+    <div class="temp-scale">
+      <span>Buy</span>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span>911 GT3<br>$74,600*</span>
+      <button class="add-to-cart">Add to Cart</button>
+      <span class="mini-image">
+        <img src="images/porsche-model-mini-2.png"width="126px" height="95"></span>
+    </div>
+    <span class="temp">300 - Max-hp</span>
+    <span class="temp">4.9s - 0-60mph</span>
+    <span class="temp">170mph Top track speed</span>
+    <div class="temp-scale">
+      <span>Buy</span>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span>911 Carerra<br>$80,300*</span>
+      <button class="add-to-cart">Add to Cart</button>
+      <span class="mini-image">
+        <img src="images/porsche-model-mini-3.png"width="126px" height="95"></span>
+    </div>
+    <span class="temp">350 - Max-hp</span>
+    <span class="temp">4.4s - 0-60mph</span>
+    <span class="temp">177mph Top track speed</span>
+    <div class="temp-scale">
+      <span>Buy</span>
+    </div>
+  </div>
+  <div>
+    <br>
+    <hr>
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Car Dealership Name. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
