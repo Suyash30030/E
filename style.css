@@ -188,7 +188,7 @@ hr {
   box-sizing: border-box;
   display: inline-flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   width: 300px;
   background-color: #111;
   border: none;
