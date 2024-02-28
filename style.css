@@ -195,6 +195,8 @@ hr {
   border-radius: 8px;
   padding: 20px;
   margin: 10px auto;
+  margin-left:0;
+  margin-right:0;
   font-family: sans-serif;
   padding-bottom: 30px;
   flex-wrap: nowrap; 
